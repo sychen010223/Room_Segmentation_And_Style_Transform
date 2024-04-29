@@ -13,9 +13,9 @@ To validate the effectiveness of our segmentation model, we conducted an evaluat
 
 ## Usage
 
-1. **Installation**: Start by cloning this repository to your local machine.
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+1. **Installation**: Start by cloning this repository to your local machine.  
+    git clone https://github.com/sychen010223/Room_Segmentation_And_Style_Transform  
+    cd Room_Segmentation_And_Style_Transform
 2. **Segmentation**: Run the segmentation module on your input images using the pretrained weights. The module will generate segmentation maps for each image, indicating the location of furniture objects.
 3. **Style Transformation**: Utilize the TensorFlow Hub model to apply artistic styles from style images to the segmented furniture objects. This step enables dynamic and customizable image stylization.
 
