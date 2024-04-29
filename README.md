@@ -18,7 +18,7 @@ To validate the effectiveness of our segmentation model, we conducted an evaluat
     `cd Room_Segmentation_And_Style_Transform`
 2. **Run the Test Code**: Locate the `Demo.ipynb` file in `Segmentation_Process/` directory and execute it. This file contains the code to load the provided pre-trained models and weights. It applies the segmentation module and style transformation to a sample set of images.
 3. **View the Results**: After running the `Demo.ipynb` file, the results will be generated, the  you can view the segmented images and the stylized versions with applied artistic styles.
-4. **Results**: You can find example outputs and accuracy table in the `results/` directory.
+4. **Evaluation**: You can find example outputs and accuracy table in the `results/` directory.
 
 ## Future Work
 
