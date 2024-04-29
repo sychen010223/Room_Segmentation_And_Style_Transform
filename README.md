@@ -16,10 +16,9 @@ To validate the effectiveness of our segmentation model, we conducted an evaluat
 1. **Installation**: Start by cloning this repository to your local machine.  
     git clone https://github.com/sychen010223/Room_Segmentation_And_Style_Transform  
     cd Room_Segmentation_And_Style_Transform
-2. **Segmentation**: Run the segmentation module on your input images using the pretrained weights. The module will generate segmentation maps for each image, indicating the location of furniture objects.
-3. **Style Transformation**: Utilize the TensorFlow Hub model to apply artistic styles from style images to the segmented furniture objects. This step enables dynamic and customizable image stylization.
-
-5. **Results**: Evaluate the segmentation accuracy and visually assess the style transformations. You can find example outputs in the `results/` directory.
+2. **Run the Test Code**: Locate the testCode.ipynb file and execute it. This file contains the code to load the provided pre-trained models and weights. It applies the segmentation module and style transformation to a sample set of images.
+3. **View the Results**: After running the testCode.ipynb file, the results will be generated, the  you can view the segmented images and the stylized versions with applied artistic styles.
+4. **Results**: Evaluate the segmentation accuracy and visually assess the style transformations. You can find example outputs in the `results/` directory.
 
 ## Future Work
 
